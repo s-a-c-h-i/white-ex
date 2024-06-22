@@ -1,0 +1,19 @@
+{
+  "name": "mern-realtime-whiteboard-sharing-app-backend",
+  "version": "1.0.0",
+  "description": "this is backend for my project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node serverserver.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Saachi Pandey",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.1",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
